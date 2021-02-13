@@ -13,4 +13,5 @@ public class Deparment {
     public void getDetils() { //metodo
 
     }
+    
 }

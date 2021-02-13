@@ -15,4 +15,5 @@ public class Job {
     public void getDetils() { //metodo
 
     }
+    
 }
