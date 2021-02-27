@@ -1,4 +1,5 @@
-
+//ALAN DANIEL SEVILLA HERNANDEZ
+//2022525
 package mx.edu.cesba.main;
 
 import javax.swing.JOptionPane;
@@ -16,13 +17,13 @@ public class HR_Main {
         
         
         e1.setId(1);
-        e1.setfirstName("Alfonso");
-        e1.setlastName("Roberto");
+        e1.setFirstName("Alfonso");
+        e1.setLastName("Roberto");
         e1.setAge(18);
         e1.setEmail("alan.hdz_inc@hotmail.com");
-        e1.setphoneNumber(123456789);
+        e1.setPhoneNumber(123456789);
         e1.setSalary(5000);
-        e1.sethireDate("02/02/2021");
+        e1.setHiredate("02/02/2021");
         
        /* e2.id = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su ID"));
         e2.firstName = JOptionPane.showInputDialog("Ingrese su nombre");
