@@ -478,6 +478,16 @@ public class Read extends javax.swing.JFrame {
         // TODO add your handling code here:
         char solonumero = evt.getKeyChar();
         
+        boolean num = solonumero>=48 && solonumero<=57;
+        if (!num){
+            evt.consume();
+        }
+        
+        
+        if (txt_pn.getText().length()>=10){
+            evt.consume();
+        }
+        
         if (Character.isLetter(solonumero)){
             getToolkit().beep();
             evt.consume();
